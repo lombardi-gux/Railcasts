@@ -1,3 +1,7 @@
+* {
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
 .CodeMirror .CodeMirror-scroll {
     background-color: #2c2c2c;
     color: #E6E1DC;
@@ -60,7 +64,7 @@
 .cm-qualifier { color: #FFC66D; }
 .cm-def { color: #CC7833 ; }
 .cm-keyword { color: #CC7833; }
-.cm-comment { color: #BC9458; }
+.cm-comment { color: #787878; }
 .cm-string {color: #A5C261;}
 .cm-string-2 {color: #A5C261;}
 .cm-variable { color: #D0D0FF; }
@@ -75,7 +79,7 @@
 .cm-builtin { color: #CC7833; }
 .cm-hr { color: #A5C261; }
 .cm-plus { color: #FFC66D; }
-.cm-bracket { color: #D0D0FF; }
+.cm-bracket { color: #E8BF6A; }
 .cm-error { color: #bc322f; }
 .cm-minus { color: #bc322f; }
 .cm-quote { color: #CC7833; }
